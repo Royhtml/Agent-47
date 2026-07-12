@@ -1,0 +1,8 @@
+ROWS, COLS, TILE_W = 10, 10, 2
+SYM_ENEMY_C = "\u039b"
+SYM_ENEMY_R = "\u0398"
+SYM_WALL = "\u2593"
+SYM_FLOOR = " "
+SYM_DOOR_L = "\u25aa"
+SYM_DOOR_O = "\u25ab"
+SYM_KEY = "\u00a4"

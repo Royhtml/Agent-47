@@ -1,0 +1,13 @@
+Copyright (c) 2026 Dwi Bakti N Dev.
+
+This license grants permission to anyone to use, copy, modify, and distribute this game, provided that attribution is given to Dwi Bakti N Dev.
+
+No warranty is provided; the use of this game is entirely at the user's own risk.
+
+Alternative (Slightly more formal legal tone):
+
+Copyright (c) 2026 Dwi Bakti N Dev.
+
+Permission is hereby granted to any person to use, copy, modify, and distribute this game, provided that proper attribution is given to Dwi Bakti N Dev.
+
+This game is provided without warranty of any kind; use of this game is entirely at the user's own risk.

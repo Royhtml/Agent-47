@@ -1,0 +1,43 @@
+
+## Game Information & Description
+
+**Game Title:** AGENT 47
+
+**Version:** 1.0.0
+
+**Short Description:**
+
+AGENT 47 is an exploration and narrative-driven puzzle-adventure game set against the backdrop of Indonesian culture. Players step into the shoes of an elite hacker on a mission to expose and eradicate corrupt officials. Navigate through secret networks and local islands, solve intricate cyber-puzzles, interact with local informants, and gather classified evidence to uncover an ancient conspiracy deeply rooted in modern greed.
+
+## Key Features
+
+* **2.5D Art Style Open World:** Explore diverse Indonesian environments, from dense jungles and coastal areas to local villages and high-tech corrupt corporate facilities.
+* **Environment & Cyber-Based Puzzles:** Solve puzzles by manipulating physical environments, hacking security systems, and bypassing digital firewalls.
+* **Dynamic NPCs & Local Intel:** Interact with local citizens and informants to unlock side quests, gather intel, and uncover regional lore.
+* **Hacking & Inventory System:** Manage a streamlined inventory, upgrade your hacking tools, and decrypt stolen files.
+* **Traditional-Themed Soundtrack:** Immersive music and sound effects blending traditional Indonesian instruments with modern cyberpunk synths.
+
+---
+
+## How to Play
+
+1. Use the **Arrow keys** or **WASD** to move.
+2. Press **E** to interact with objects, NPCs, and terminals.
+3. Open the **Map/Database** to track objectives, target profiles, and collected evidence.
+4. Solve puzzles by combining found items, decrypting codes, or manipulating the environment.
+
+---
+
+## System Requirements (Estimated)
+
+* **OS:** Windows 7/8/10/11
+* **CPU:** Dual-core 2.0 GHz
+* **RAM:** 4 GB
+* **GPU:** Integrated Graphics or equivalent
+* **Storage:** 500 MB available space
+
+---
+
+## Release Notes
+
+* **Initial Release:** Content updates, bug fixes, and further localization options will be added in future patches.
