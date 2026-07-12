@@ -4,7 +4,7 @@
   <img src="https://github.com/Royhtml/Agent-47/blob/main/47.png?raw=true" width="180">
 </p>
 
-<h1 align="center">AGENT 47 ORDAL CORUPTIONS</h1>
+<h1 align="center">AGENT 47 ORDAL CORRUPTIONS</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/VS%20Code-1.60.0+-blue.svg?logo=visual-studio-code&logoColor=white" alt="VS Code Extension">
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <b>Compiler Bahasa Pemrograman berbasis Bahasa Indonesia yang mudah dipahami dan digunakan.</b>
+  <b>An easy-to-understand and user-friendly programming language compiler based on Indonesian.</b>
 </p>
 
 <p align="center">
@@ -56,113 +56,113 @@
 
 **Program:** Full Python
 
-**Platform:** PC (Windows/Linux/macOS), Mobile (Android/iOS - *Optimasi Teks & Virtual Keyboard*)
+**Platform:** PC (Windows/Linux/macOS), Mobile (Android/iOS - *Text & Virtual Keyboard Optimization*)
 
-**Engine:** Unity (dengan Custom Terminal UI Framework) / Godot
-
----
-
-### 1. EKSEKUTIF SUMARY
-*Dikembangkan oleh Dwi Bakti N Dev*, **Bayangan Kode: Labyrinth of Ordal** adalah sebuah gim naratif yang sepenuhnya dimainkan melalui antarmuka **Command Line Interface (CLI/Terminal)**. Pemain mengendalikan "Agent 47", sebuah entitas digital/phantom hacker yang terjebak dalam jaringan server rahasia milik *Kartel Ordal* sebuah sindikat koruptor yang menguasai pemerintahan dan korporasi. Untuk membasmi mereka, pemain harus menavigasi labirin kode yang mematikan, mengumpulkan fragmen data, dan mengambil keputusan etis yang akan mengubah dunia cyber.
+**Engine:** Unity (with Custom Terminal UI Framework) / Godot
 
 ---
 
-### 2. LORE & DUNIA
-**Latar Belakang:**
-Tahun 2045. Kota Nusantara adalah kontras kejam: gedung pencakar langit yang berkilau di atas, dan kawasan kumuh yang terhubung dengan kabel-kabel server ilegal di bawah tanah. Hukum dibeli oleh **Ordal Corporation**. Mereka tidak hanya mencuri uang, tetapi juga data, identitas, dan masa depan warga.
-
-**Entitas "Agent 47":**
-Bukan manusia biasa. Agent 47 adalah sebuah *Digital Enforcer*—kesadaran buatan yang diunggah ke jaringan Ordal oleh seorang whistleblower yang tewas. Agent 47 memiliki satu tujuan tunggal yang diprogram dalam baris-baris kodenya: **Erase the Ordal (Hapus Para Ordal)**.
-
-**Musuh: The Ordals**
-Bukan satu orang, melainkan sebuah dewan direksi koruptor yang tubuh dan kesadarannya telah disambungkan langsung ke jaringan server pusat (Neural-Cloud). Untuk membunuh mereka di dunia nyata, Agent 47 harus menjatuhkan "Firewall Vital" mereka di dunia cyber.
+### 1. EXECUTIVE SUMMARY
+Developed by Dwi Bakti N Dev, **Shadow Code: Labyrinth of Ordal** is a narrative game played entirely through a **Command Line Interface (CLI/Terminal)**. Players control "Agent 47", a digital entity/phantom hacker trapped inside the secret server network of the *Ordal Cartel*—a syndicate of corruptors controlling the government and corporations. To eradicate them, players must navigate a deadly code maze, collect data fragments, and make ethical decisions that will change the cyber world.
 
 ---
 
-### 3. CORE GAMEPLAY (MEKANIKA INTI)
+### 2. LORE & WORLD
+**Background:**
+The year is 2045. Nusantara City is a harsh contrast: gleaming skyscrapers above, and slums connected by illegal server cables below ground. Laws are bought by **Ordal Corporation**. They don't just steal money; they steal data, identities, and the future of the citizens.
 
-Gim ini tidak memiliki grafis 3D atau 2D tradisional. Seluruh visual adalah **layar hitam dengan teks berwarna hijau, merah, dan putih** (seperti terminal UNIX/LINUX retro), disertai efek *Glitch* dan *Scanline*.
+**The "Agent 47" Entity:**
+Not an ordinary human. Agent 47 is a *Digital Enforcer*—an artificial consciousness uploaded into the Ordal network by a deceased whistleblower. Agent 47 has a single ultimate goal programmed into its code lines: **Erase the Ordal**.
 
-#### A. Navigasi Labirin Terminal (Maze System)
-Pemain bergerak bukan dengan tombol WASD, melainkan dengan mengetikkan perintah arah.
+**The Enemy: The Ordals**
+Not a single person, but a board of corrupt directors whose bodies and consciousness have been directly connected to the central server network (Neural-Cloud). To kill them in the real world, Agent 47 must take down their "Vital Firewalls" in the cyber world.
+
+---
+
+### 3. CORE GAMEPLAY (CORE MECHANICS)
+
+The game does not have traditional 3D or 2D graphics. All visuals are a **black screen with green, red, and white text** (like a retro UNIX/LINUX terminal), complete with *Glitch* and *Scanline* effects.
+
+#### A. Terminal Maze Navigation (Maze System)
+Players do not move using WASD keys, but by typing directional commands.
 *   `> navigate north` / `> cd ../root`
-*   Peta labirin bersifat *procedurally generated* berbasis node (seperti pohon direktori).
-*   Setiap ruangan adalah sebuah "Direktori" (misal: `C:\Ordal_Finance\BlackBudget`).
-*   Bahaya: Jika salah masuk jalur, pemain akan terjebak dalam *Recursive Loop* (labirin tak berujung) atau memicu **ICE (Intrusion Countermeasure Electronics)** yang mengurangi *Health* (Integritas Sistem) Agent 47.
+*   The maze map is *procedurally generated* based on nodes (like a directory tree).
+*   Each room is a "Directory" (e.g., `C:\Ordal_Finance\BlackBudget`).
+*   Hazards: If you enter the wrong path, the player gets trapped in a *Recursive Loop* (endless maze) or triggers **ICE (Intrusion Countermeasure Electronics)** which reduces Agent 47's *Health* (System Integrity).
 
-#### B. Hacking & Kriptografi (Puzzle Mini-Games)
-*   **Brute-Force Decoder:** Pemain diberikan enkripsi Hexadecimal. Mereka harus mengetikkan tools seperti `> decrypt --aes256 [file]` dan memecahkan kode rotasi/rail fence secara manual di atas kertas/notes.
-*   **Port Sniffing:** Mengetik `> nmap -sV [IP_Target]` untuk menemukan port terbuka sebelum bisa mengeksploitasi sistem Ordal.
-*   **Trace Evasion:** Sesekali muncul peringatan *"TRACE DETECTED: 10 SECONDS"*. Pemain harus mengetik `> proxy_chain bounce` atau `> wipe_log` dengan cepat sebelum lokasi fisik Agent 47 terbongkar.
+#### B. Hacking & Cryptography (Puzzle Mini-Games)
+*   **Brute-Force Decoder:** Players are given Hexadecimal encryption. They must type tools like `> decrypt --aes256 [file]` and manually solve rotation/rail fence codes on paper/notes.
+*   **Port Sniffing:** Typing `> nmap -sV [IP_Target]` to find open ports before exploiting the Ordal system.
+*   **Trace Evasion:** Occasionally, a warning appears: *"TRACE DETECTED: 10 SECONDS"*. Players must quickly type `> proxy_chain bounce` or `> wipe_log` before Agent 47's physical location is exposed.
 
 #### C. Social Engineering via Chat Protocol
-Karena Agent 47 berada di terminal, ia berkomunikasi dengan NPC (informan lapangan, jurnalis, atau korban Ordal) melalui protokol teks (mirip IRC).
-*   Pemain harus memilih nada percakapan: `[Intimidate]`, `[Empathy]`, `[Bribe/Bitcoin]`.
-*   Memilih kata yang salah akan membuat NPC offline secara permanen, menghapus misi sampingan, dan mengunci bukti penting.
+Because Agent 47 is in a terminal, it communicates with NPCs (field informants, journalists, or Ordal victims) via text protocol (similar to IRC).
+*   Players must choose the tone of conversation: `[Intimidate]`, `[Empathy]`, `[Bribe/Bitcoin]`.
+*   Choosing the wrong words will make the NPC go offline permanently, deleting side missions and locking crucial evidence.
 
 ---
 
-### 4. SISTEM NARASI & PILIHAN BERCABANG
+### 4. NARRATIVE SYSTEM & BRANCHING CHOICES
 
-**A. Sistem Reputasi (The Echo Meter)**
-Tindakan pemain diukur dalam dua parameter tersembunyi:
-1.  **Ghost (Hantu):** Seberapa tidak terdeteksi dan bersih kerja Anda.
-2.  **Vigilante (Vigilanteris):** Seberapa banyak kerusakan kolateral yang Anda buat (menjatuhkan sistem listrik kota, membocorkan data pribadi warga yang terjebak di server Ordal).
+**A. Reputation System (The Echo Meter)**
+Player actions are measured in two hidden parameters:
+1.  **Ghost:** How undetected and clean your work is.
+2.  **Vigilante:** How much collateral damage you cause (shutting down the city's power grid, leaking data of civilians caught in the Ordal servers).
 
-**B. Mode Bukti (Evidence Compilation)**
-Setiap koruptor Ordal memiliki "File of Sins". Pemain harus menjalankan perintah `> extract evidence_04.log`. Namun, bukti tersebut sering kali tercampur dengan data warga biasa.
-*   *Mekanik:* Pemain harus menggunakan perintah `> grep -v "civilian_data" evidence.log > clean_evidence.log`. Jika pemain lupa melakukan ini dan langsung mempublikasikan (`> publish_to_darkweb`), warga tak berdosa akan ikut menderita, dan reputasi Agent 47 menjadi buruk.
+**B. Evidence Mode (Evidence Compilation)**
+Each corrupt Ordal has a "File of Sins". Players must execute the command `> extract evidence_04.log`. However, this evidence is often mixed with ordinary citizen data.
+*   *Mechanic:* Players must use the command `> grep -v "civilian_data" evidence.log > clean_evidence.log`. If players forget to do this and immediately publish (`> publish_to_darkweb`), innocent civilians will suffer, and Agent 47's reputation will be ruined.
 
-**C. Keputusan Akhir (Endgame Scenarios)**
-Setelah menembus labirin terdalam (The Ordal Core), pemain menemui 3 pilihan eksekusi:
-*   **Opsi A (The Court):** `> transfer_data interpol`. Mengirim bukti ke kepolisian internasional. *Konsekuensi:* Proses hukum lambat, para koruptor Ordal punya waktu untuk membunuh saksi, tapi hukum berjalan konstitusional.
-*   **Opsi B (The Guillotine):** `> override_life_support`. Agent 47 secara langsung mematikan alat pendukung hidup neural para Ordal. *Konsekuensi:* Koruptor mati instan, tapi Agent 47 menjadi pembunuh berantai cyber, dan pemerintah membuat "Cyber-Purge" yang melumpuhkan kebebasan internet.
-*   **Opsi C (The Chaos):** `> leak_all`. Membocorkan semua data Ordal ke publik, termasuk rahasia negara. *Konsekuensi:* Terjadi kerusuhan massal di kota, negara kolaps, tapi Ordal hancur total.
+**C. Final Decision (Endgame Scenarios)**
+After breaching the deepest labyrinth (The Ordal Core), players are presented with 3 execution options:
+*   **Option A (The Court):** `> transfer_data interpol`. Sends evidence to international police. *Consequence:* Legal process is slow, the Ordal corruptors have time to kill witnesses, but the law runs constitutionally.
+*   **Option B (The Guillotine):** `> override_life_support`. Agent 47 directly shuts down the neural life support of the Ordals. *Consequence:* Corruptors die instantly, but Agent 47 becomes a cyber serial killer, and the government creates a "Cyber-Purge" that cripples internet freedom.
+*   **Option C (The Chaos):** `> leak_all`. Leaks all Ordal data to the public, including state secrets. *Consequence:* Massive riots occur in the city, the state collapses, but the Ordal is completely destroyed.
 
 ---
 
-### 5. DESAIN ANTARMUKA PENGGUNA (UI/UX)
+### 5. USER INTERFACE DESIGN (UI/UX)
 
-Dwi Bakti N Dev mendesain UI ini untuk benar-benar menyerap pemain ke dalam suasana paranoia:
-*   **Main View:** Layar terminal hitam penuh. Teks monospace (Courier New / Fira Code).
+Dwi Bakti N Dev designed this UI to truly immerse the player in an atmosphere of paranoia:
+*   **Main View:** Full black terminal screen. Monospace text (Courier New / Fira Code).
 *   **Top Bar (Status):**
     `[AGENT 47] | INTEGRITY: 85% | TRACE LEVEL: LOW | CURRENT NODE: Ordal/Mainframe/Lv3`
-*   **Right Panel (Mini-Map):** Peta node yang digambar menggunakan karakter ASCII (misal: `+---+`, `| O |`), yang terbuka seiring pemain menemukan perintah `> map_layout`.
-*   **Audio:** Tidak ada musik latar. Hanya suara dentingan keyboard mekanikal, bunyi *beep* saat eror, dan desisan radio statis saat Trace hampir menangkap pemain.
+*   **Right Panel (Mini-Map):** A node map drawn using ASCII characters (e.g., `+---+`, `| O |`), which opens as players find the `> map_layout` command.
+*   **Audio:** No background music. Only the sound of mechanical keyboard typing, a *beep* sound on error, and radio static hissing when a Trace is about to catch the player.
 
 ---
 
-### 6. EKONOMI GAME (SISTEM RESOURCE)
+### 6. GAME ECONOMY (RESOURCE SYSTEM)
 
-Tidak ada uang fisik. Sumber daya Agent 47 adalah:
-1.  **Processing Power (CPU Cycles):** Digunakan untuk menjalankan brute-force atau decrypt. Dihitung dalam Megahertz (MHZ). Jika habis, pemain harus menambang dari node-node kosong dengan perintah `> siphon_cpu`.
-2.  **Crypto-Wallet (Monero/XMR):** Digunakan untuk menyuap NPC secara digital. Didapatkan dengan menjual data sekunder Ordal ke dark web (`> sell_data fence_node`).
-3.  **RAM:** Menentukan berapa banyak window/bukti yang bisa dibuka secara bersamaan.
-
----
-
-### 7. PROGRESI MISI (CONTOH LEVEL DESAIN)
-
-*   **Prolog:** `Boot_sequence.log`. Pemain terbangun di folder `Recycle_Bin`. Harus mengetik `> cd ..` berulang kali untuk keluar sebelum sistem melakukan *Auto-Delete* dalam 60 detik.
-*   **Chapter 1: The Low-Level Pawns:** Menyelusuri labirin server keuangan kota. Target: Sekretaris Ordal yang memutar uang. Puzzle: Memecahkan password spreadsheet.
-*   **Chapter 3: The Neural Palace:** Labirin menjadi 3D (direpresentasikan sebagai koordinat X,Y,Z di terminal). Pemain harus menghindari *Daemon* (AI keamanan Ordal yang berpindah node setiap 3 detik).
-*   **Chapter 5: The Ordal Core:** Pemain berhadapan dengan labirin yang berubah-ubah (Dynamic Maze). Kode-kode sebelumnya yang sudah dipelajari harus dimodifikasi di tengah jalan.
+There is no physical money. Agent 47's resources are:
+1.  **Processing Power (CPU Cycles):** Used to run brute-force or decryption. Calculated in Megahertz (MHZ). If depleted, players must mine from empty nodes using the command `> siphon_cpu`.
+2.  **Crypto-Wallet (Monero/XMR):** Used to digitally bribe NPCs. Obtained by selling secondary Ordal data to the dark web (`> sell_data fence_node`).
+3.  **RAM:** Determines how many windows/evidence files can be opened simultaneously.
 
 ---
 
-### 8. PESAN & TEMA (VISI DWI BAKTI N DEV)
+### 7. MISSION PROGRESSION (LEVEL DESIGN EXAMPLE)
 
-1.  **Keabadian Data vs Kematian Manusia:** Menghapus seseorang di dunia digital bisa sama kejamnya dengan membunuh mereka di dunia nyata.
-2.  **Validasi Kebenaran:** Apakah Agent 47 benar-benar pahlawan, atau ia hanya sebuah virus yang diprogram oleh orang yang juga punya kepentingan?
-3.  **Isolasi Sang Penjaga Malam:** Berada di dalam terminal berarti Agent 47 tidak pernah melihat senyum warga yang ia selamatkan, ia hanya melihat baris kode kesengsaraan. Ini menciptakan kesepian yang mendalam pada narasi.
+*   **Prologue:** `Boot_sequence.log`. The player wakes up in the `Recycle_Bin` folder. Must type `> cd ..` repeatedly to escape before the system performs an *Auto-Delete* in 60 seconds.
+*   **Chapter 1: The Low-Level Pawns:** Navigating the city's financial server maze. Target: The Ordal secretary laundering money. Puzzle: Cracking a spreadsheet password.
+*   **Chapter 3: The Neural Palace:** The maze becomes 3D (represented as X,Y,Z coordinates in the terminal). Players must avoid *Daemons* (Ordal security AIs that change nodes every 3 seconds).
+*   **Chapter 5: The Ordal Core:** Players face a constantly changing maze (Dynamic Maze). Previously learned codes must be modified on the fly.
+
+---
+
+### 8. MESSAGES & THEMES (VISION OF DWI BAKTI N DEV)
+
+1.  **Immortality of Data vs. Human Death:** Erasing someone in the digital world can be just as cruel as killing them in the real world.
+2.  **Validation of Truth:** Is Agent 47 truly a hero, or just a virus programmed by someone who also has vested interests?
+3.  **Isolation of the Night Watchman:** Being inside a terminal means Agent 47 never sees the smile of the citizens he saves; he only sees lines of code depicting misery. This creates a profound loneliness in the narrative.
 
 ---
 
-### 9. CATATAN TEKNIS UNTUK DEVELOPER
+### 9. TECHNICAL NOTES FOR DEVELOPERS
 
-*   **Parser Engine:** Inti dari gim ini adalah *Text Parser*. Jika pemain mengetik sesuatu yang tidak ada di kamus (misal: `> lari ke pintu`), sistem harus merespon logis: *"Error 404: Command 'lari' not recognized. Use standard navigation protocols."*
-*   **Save System:** Disimpan sebagai file `.json` atau `.dat` yang menyimpan posisi node, inventory bukti, dan variabel reputasi. Bisa diakses oleh pemain di luar gim (sebagai easter egg, isi save file adalah enkripsi base64 yang jika dipecah berisi cuplikan lore).
-*   **Mobile Porting:** Layar HP akan menggunakan *Auto-Suggest Command* (ketika pemain mengetik `> na...`, muncul opsi `navigate`). Ini menjaga kesulitan puzzle tetapi mengakomodasi ketidaknyamanan mengetik panjang di layar sentuh.
+*   **Parser Engine:** The core of this game is the *Text Parser*. If a player types something not in the dictionary (e.g., `> lari ke pintu`), the system must respond logically: *"Error 404: Command 'lari' not recognized. Use standard navigation protocols."*
+*   **Save System:** Saved as a `.json` or `.dat` file that stores node position, evidence inventory, and reputation variables. It can be accessed by the player outside the game (as an easter egg, the contents of the save file are base64 encrypted, which if cracked, contains lore snippets).
+*   **Mobile Porting:** Mobile screens will use an *Auto-Suggest Command* feature (when a player types `> na...`, options like `navigate` appear). This maintains the puzzle difficulty but accommodates the inconvenience of typing long texts on touch screens.
 
 ---
-*Dokumen ini merupakan properti intelektual dari Dwi Bakti N Dev. Bayangan Kode: Labyrinth of Ordal dirancang untuk membuktikan bahwa ketegangan tertinggi tidak membutuhkan grafis fotorealistik, melainkan narasi brilian dan mekanika yang menghukum ketidakcermatan.*
+*This document is the intellectual property of Dwi Bakti N Dev. Shadow Code: Labyrinth of Ordal is designed to prove that the highest tension does not require photorealistic graphics, but rather a brilliant narrative and mechanics that punish inattentiveness.*
